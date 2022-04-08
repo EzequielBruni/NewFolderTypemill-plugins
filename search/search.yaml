@@ -1,0 +1,25 @@
+name: search
+version: 1.1.2
+description: Add a search to your website with lunr.js. Designed for use with NewFolder for Typemill.
+author: Trendschau
+homepage: https://newfolder.dev
+licence: MIT
+
+forms:
+  fields:
+    placeholder:
+      type: text
+      label: Placeholder for search field
+      palceholder: search...
+    resulttext:
+      type: text
+      label: Text for result
+      placeholder: Result for
+    noresulttext:
+      type: text
+      label: Text for no result message
+      placeholder: We did not find anything for that search term.
+    closetext:
+      type: text
+      label: Text for close button
+      placeholder: close
